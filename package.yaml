@@ -1,0 +1,13 @@
+# Package definition for uncloud
+
+package_name: uncloud
+github_repo: psviderski/uncloud
+license: Apache-2.0
+artifact_format: tar.gz
+description: "Lightweight clustering and container orchestration tool"
+
+architectures:
+  amd64:
+    release_pattern: "uc_linux_amd64.tar.gz"
+  arm64:
+    release_pattern: "uc_linux_arm64.tar.gz"
